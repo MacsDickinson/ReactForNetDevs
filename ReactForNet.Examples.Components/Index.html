@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>React for .net</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="Styles/screen.css" />
+</head>
+<body>
+    <div id="myApp"></div>
+    <script src="/Scripts/lib/react.min.js"></script>
+    <script src="/Scripts/templates/App.js"></script>
+    <script src="/Scripts/templates/Header.js"></script>
+    <script src="/Scripts/templates/Footer.js"></script>
+    <script src="/Scripts/templates/Menu.js"></script>
+    <script src="/Scripts/templates/MenuItem.js"></script>
+    <script src="/Scripts/templates/CommentList.js"></script>
+    <script src="/Scripts/templates/Comment.js"></script>
+    <script type="text/javascript">
+        var data = {
+            Comments: [
+                { Author: 'Bob', Message : 'This is awesome' },
+                { Author: 'Bill', Message : 'I love the design' }
+            ],
+            MenuItems: [
+                { Title: 'Home', Location: '/' },
+                { Title: 'About', Location: '/about' }
+            ],
+            FooterLinks: [
+                { Title: 'Terms', Location: '/terms' }
+            ]
+        }
+        React.render(React.createElement(App, data), document.getElementById('myApp'));
+    </script>
+</body>
+</html>

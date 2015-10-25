@@ -1,0 +1,12 @@
+﻿@model ReactForNet.Examples.AspNet5.Models.HelloWorldViewModel
+
+@Html.React("HelloWorld", new
+{
+    name = Model.Name
+})
+
+@section Scripts
+{
+    <script src="/Scripts/templates.js"></script>
+    @Html.ReactInitJavaScript()
+}

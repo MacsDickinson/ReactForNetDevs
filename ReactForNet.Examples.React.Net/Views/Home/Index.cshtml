@@ -1,0 +1,16 @@
+﻿@model ReactForNet.Examples.React.Net.Models.HelloWorldViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.React("HelloWorld", new
+{
+    name = Model.Name
+})
+
+@section Scripts
+{
+    <script src="/Scripts/templates/HelloWorld.js"></script>
+    @Html.ReactInitJavaScript()
+}

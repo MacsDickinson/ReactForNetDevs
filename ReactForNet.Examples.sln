@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. ReactForNet.Examples.HelloWorld.JSX", "ReactForNet.Examples.HelloWorld\1. ReactForNet.Examples.HelloWorld.JSX.csproj", "{CCFC61A1-3746-4E68-9506-A9FD2D384F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. ReactForNet.Examples.HelloWorld.TSX", "ReactForNet.Examples.HelloWorld.TSX\3. ReactForNet.Examples.HelloWorld.TSX.csproj", "{D64BCF55-E0F9-4599-B58D-927C598D1D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ReactForNet.Examples.HelloWorld.ES2015", "ReactForNet.Examples.HelloWorld.ES6\2. ReactForNet.Examples.HelloWorld.ES2015.csproj", "{B1814AFF-C3F7-44B4-878D-0A18A36F7B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. ReactForNet.Examples.Components", "ReactForNet.Examples.Components\4. ReactForNet.Examples.Components.csproj", "{868FBBA7-51BC-47AF-BCDE-71229A7194C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Hello World", "1. Hello World", "{3C6C3937-315D-4B62-9AE4-F7DD1420DB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. ReactForNet.Examples.State.JSX", "ReactForNet.Examples.State.JSX\5. ReactForNet.Examples.State.JSX.csproj", "{574C4655-2BA1-403B-8083-2CD072648958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. ReactForNet.Examples.State.ES2015", "ReactForNet.Examples.State.ES6\6. ReactForNet.Examples.State.ES2015.csproj", "{16F312BD-3176-4289-810B-63B01518E6CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Components", "2. Components", "{8C9DFE25-33DE-4400-8F7E-DD9A7E7A814F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. State", "3. State", "{63BCB13E-EA1C-4811-A9D8-FE89CCE39349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. React.Net", "4. React.Net", "{4E2F116D-E25E-4462-9D77-EE773314AE26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. ReactForNet.Examples.State.TSX", "ReactForNet.Examples.State.TSX\7. ReactForNet.Examples.State.TSX.csproj", "{324F45DE-A246-418E-A8DF-F17223CCD78A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Bonus", "5. Bonus", "{DE735E30-86DB-4033-80C1-583160B71A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. ReactForNet.Examples.React.Net", "ReactForNet.Examples.React.Net\8. ReactForNet.Examples.React.Net.csproj", "{D6DCD4B0-6735-401D-8817-DC44256C1386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactForNet.Examples.RandomNumbers", "ReactForNet.Examples.RandomNumbers\ReactForNet.Examples.RandomNumbers.csproj", "{5E2045F8-0EF4-4CA5-8AA8-C1289E919609}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReactForNet.Examples.vNext", "ReactForNet.Examples.vNext\ReactForNet.Examples.vNext.xproj", "{CABBDBA9-2646-4D7A-BB6D-5DDC20DC887D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReactForNet.Examples.AspNet5", "ReactForNet.Examples.AspNet5\ReactForNet.Examples.AspNet5.xproj", "{DA752C8A-AA5D-42DA-BAB9-9E511428F365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCFC61A1-3746-4E68-9506-A9FD2D384F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFC61A1-3746-4E68-9506-A9FD2D384F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFC61A1-3746-4E68-9506-A9FD2D384F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFC61A1-3746-4E68-9506-A9FD2D384F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64BCF55-E0F9-4599-B58D-927C598D1D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64BCF55-E0F9-4599-B58D-927C598D1D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64BCF55-E0F9-4599-B58D-927C598D1D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64BCF55-E0F9-4599-B58D-927C598D1D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1814AFF-C3F7-44B4-878D-0A18A36F7B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1814AFF-C3F7-44B4-878D-0A18A36F7B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1814AFF-C3F7-44B4-878D-0A18A36F7B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1814AFF-C3F7-44B4-878D-0A18A36F7B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868FBBA7-51BC-47AF-BCDE-71229A7194C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868FBBA7-51BC-47AF-BCDE-71229A7194C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868FBBA7-51BC-47AF-BCDE-71229A7194C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868FBBA7-51BC-47AF-BCDE-71229A7194C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574C4655-2BA1-403B-8083-2CD072648958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574C4655-2BA1-403B-8083-2CD072648958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574C4655-2BA1-403B-8083-2CD072648958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574C4655-2BA1-403B-8083-2CD072648958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F312BD-3176-4289-810B-63B01518E6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F312BD-3176-4289-810B-63B01518E6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F312BD-3176-4289-810B-63B01518E6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F312BD-3176-4289-810B-63B01518E6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324F45DE-A246-418E-A8DF-F17223CCD78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324F45DE-A246-418E-A8DF-F17223CCD78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324F45DE-A246-418E-A8DF-F17223CCD78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324F45DE-A246-418E-A8DF-F17223CCD78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DCD4B0-6735-401D-8817-DC44256C1386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DCD4B0-6735-401D-8817-DC44256C1386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DCD4B0-6735-401D-8817-DC44256C1386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DCD4B0-6735-401D-8817-DC44256C1386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2045F8-0EF4-4CA5-8AA8-C1289E919609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2045F8-0EF4-4CA5-8AA8-C1289E919609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2045F8-0EF4-4CA5-8AA8-C1289E919609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2045F8-0EF4-4CA5-8AA8-C1289E919609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABBDBA9-2646-4D7A-BB6D-5DDC20DC887D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABBDBA9-2646-4D7A-BB6D-5DDC20DC887D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABBDBA9-2646-4D7A-BB6D-5DDC20DC887D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABBDBA9-2646-4D7A-BB6D-5DDC20DC887D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA752C8A-AA5D-42DA-BAB9-9E511428F365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA752C8A-AA5D-42DA-BAB9-9E511428F365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA752C8A-AA5D-42DA-BAB9-9E511428F365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA752C8A-AA5D-42DA-BAB9-9E511428F365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCFC61A1-3746-4E68-9506-A9FD2D384F9F} = {3C6C3937-315D-4B62-9AE4-F7DD1420DB3E}
+		{D64BCF55-E0F9-4599-B58D-927C598D1D5E} = {3C6C3937-315D-4B62-9AE4-F7DD1420DB3E}
+		{B1814AFF-C3F7-44B4-878D-0A18A36F7B5E} = {3C6C3937-315D-4B62-9AE4-F7DD1420DB3E}
+		{868FBBA7-51BC-47AF-BCDE-71229A7194C4} = {8C9DFE25-33DE-4400-8F7E-DD9A7E7A814F}
+		{574C4655-2BA1-403B-8083-2CD072648958} = {63BCB13E-EA1C-4811-A9D8-FE89CCE39349}
+		{16F312BD-3176-4289-810B-63B01518E6CB} = {63BCB13E-EA1C-4811-A9D8-FE89CCE39349}
+		{324F45DE-A246-418E-A8DF-F17223CCD78A} = {63BCB13E-EA1C-4811-A9D8-FE89CCE39349}
+		{D6DCD4B0-6735-401D-8817-DC44256C1386} = {4E2F116D-E25E-4462-9D77-EE773314AE26}
+		{5E2045F8-0EF4-4CA5-8AA8-C1289E919609} = {DE735E30-86DB-4033-80C1-583160B71A56}
+		{CABBDBA9-2646-4D7A-BB6D-5DDC20DC887D} = {DE735E30-86DB-4033-80C1-583160B71A56}
+		{DA752C8A-AA5D-42DA-BAB9-9E511428F365} = {DE735E30-86DB-4033-80C1-583160B71A56}
+	EndGlobalSection
+EndGlobal
